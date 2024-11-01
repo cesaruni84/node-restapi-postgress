@@ -1,0 +1,196 @@
+{"code":"23505","constraint":"users_email_key","detail":"Ya existe la llave (email)=(user200@example.com).","file":"nbtinsert.c","length":213,"level":"error","line":"673","message":"Error creating user: llave duplicada viola restricción de unicidad «users_email_key» llave duplicada viola restricción de unicidad «users_email_key»","name":"error","routine":"_bt_check_unique","schema":"public","severity":"ERROR","stack":"error: llave duplicada viola restricción de unicidad «users_email_key»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:51:22)","table":"users","timestamp":"2024-10-28T06:54:13.635Z"}
+{
+  "timestamp": "2024-10-28T07:05:09.722Z",
+  "level": "error",
+  "message": "Error creating user: llave duplicada viola restricción de unicidad «users_email_key» llave duplicada viola restricción de unicidad «users_email_key»",
+  "length": 213,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23505",
+  "detail": "Ya existe la llave (email)=(user200@example.com).",
+  "schema": "public",
+  "table": "users",
+  "constraint": "users_email_key",
+  "file": "nbtinsert.c",
+  "line": "673",
+  "routine": "_bt_check_unique",
+  "stack": "error: llave duplicada viola restricción de unicidad «users_email_key»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:51:22)"
+}
+{
+  "timestamp": "2024-10-28T07:05:31.976Z",
+  "level": "error",
+  "message": "Error creating user: llave duplicada viola restricción de unicidad «users_email_key» llave duplicada viola restricción de unicidad «users_email_key»",
+  "length": 213,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23505",
+  "detail": "Ya existe la llave (email)=(user200@example.com).",
+  "schema": "public",
+  "table": "users",
+  "constraint": "users_email_key",
+  "file": "nbtinsert.c",
+  "line": "673",
+  "routine": "_bt_check_unique",
+  "stack": "error: llave duplicada viola restricción de unicidad «users_email_key»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:51:22)"
+}
+{
+  "timestamp": "2024-10-28T07:05:32.658Z",
+  "level": "error",
+  "message": "Error creating user: llave duplicada viola restricción de unicidad «users_email_key» llave duplicada viola restricción de unicidad «users_email_key»",
+  "length": 213,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23505",
+  "detail": "Ya existe la llave (email)=(user200@example.com).",
+  "schema": "public",
+  "table": "users",
+  "constraint": "users_email_key",
+  "file": "nbtinsert.c",
+  "line": "673",
+  "routine": "_bt_check_unique",
+  "stack": "error: llave duplicada viola restricción de unicidad «users_email_key»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:51:22)"
+}
+{
+  "timestamp": "2024-10-28T07:06:49.828Z",
+  "level": "error",
+  "message": "Error creating user: llave duplicada viola restricción de unicidad «users_email_key» llave duplicada viola restricción de unicidad «users_email_key»",
+  "length": 213,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23505",
+  "detail": "Ya existe la llave (email)=(user200@example.com).",
+  "schema": "public",
+  "table": "users",
+  "constraint": "users_email_key",
+  "file": "nbtinsert.c",
+  "line": "673",
+  "routine": "_bt_check_unique",
+  "stack": "error: llave duplicada viola restricción de unicidad «users_email_key»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:51:22)"
+}
+{
+  "timestamp": "2024-10-28T07:12:02.779Z",
+  "level": "error",
+  "message": "Error getting all users: result is not defined result is not defined",
+  "stack": "ReferenceError: result is not defined\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:10:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-10-28T07:12:23.176Z",
+  "level": "error",
+  "message": "Error getting all users: result is not defined result is not defined",
+  "stack": "ReferenceError: result is not defined\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:10:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-10-28T07:12:45.173Z",
+  "level": "error",
+  "message": "Error getting all users: result is not defined result is not defined",
+  "stack": "ReferenceError: result is not defined\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:10:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-10-28T07:13:16.584Z",
+  "level": "error",
+  "message": "Error getting all users: result is not defined result is not defined",
+  "stack": "ReferenceError: result is not defined\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:10:31)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-01T05:09:53.991Z",
+  "level": "error",
+  "message": "Error getting all users: Port should be >= 0 and < 65536. Received type number (NaN). Port should be >= 0 and < 65536. Received type number (NaN).",
+  "code": "ERR_SOCKET_BAD_PORT",
+  "stack": "RangeError [ERR_SOCKET_BAD_PORT]: Port should be >= 0 and < 65536. Received type number (NaN).\n    at validatePort (node:internal/validators:424:11)\n    at lookupAndConnect (node:net:1289:5)\n    at Socket.connect (node:net:1246:5)\n    at Connection.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\connection.js:43:17)\n    at Client._connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:112:11)\n    at Client.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:161:12)\n    at BoundPool.newClient (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:237:12)\n    at BoundPool.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:212:10)\n    at BoundPool.query (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:399:10)\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:33)"
+}
+{
+  "timestamp": "2024-11-01T05:11:05.848Z",
+  "level": "error",
+  "message": "Error getting all users: Port should be >= 0 and < 65536. Received type number (NaN). Port should be >= 0 and < 65536. Received type number (NaN).",
+  "code": "ERR_SOCKET_BAD_PORT",
+  "stack": "RangeError [ERR_SOCKET_BAD_PORT]: Port should be >= 0 and < 65536. Received type number (NaN).\n    at validatePort (node:internal/validators:424:11)\n    at lookupAndConnect (node:net:1289:5)\n    at Socket.connect (node:net:1246:5)\n    at Connection.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\connection.js:43:17)\n    at Client._connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:112:11)\n    at Client.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:161:12)\n    at BoundPool.newClient (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:237:12)\n    at BoundPool.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:212:10)\n    at BoundPool.query (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:399:10)\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:33)"
+}
+{
+  "timestamp": "2024-11-01T05:11:52.133Z",
+  "level": "error",
+  "message": "Error getting all users: Port should be >= 0 and < 65536. Received type number (NaN). Port should be >= 0 and < 65536. Received type number (NaN).",
+  "code": "ERR_SOCKET_BAD_PORT",
+  "stack": "RangeError [ERR_SOCKET_BAD_PORT]: Port should be >= 0 and < 65536. Received type number (NaN).\n    at validatePort (node:internal/validators:424:11)\n    at lookupAndConnect (node:net:1289:5)\n    at Socket.connect (node:net:1246:5)\n    at Connection.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\connection.js:43:17)\n    at Client._connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:112:11)\n    at Client.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:161:12)\n    at BoundPool.newClient (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:237:12)\n    at BoundPool.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:212:10)\n    at BoundPool.query (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:399:10)\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:33)"
+}
+{
+  "timestamp": "2024-11-01T05:12:00.102Z",
+  "level": "error",
+  "message": "Error getting all users: Port should be >= 0 and < 65536. Received type number (NaN). Port should be >= 0 and < 65536. Received type number (NaN).",
+  "code": "ERR_SOCKET_BAD_PORT",
+  "stack": "RangeError [ERR_SOCKET_BAD_PORT]: Port should be >= 0 and < 65536. Received type number (NaN).\n    at validatePort (node:internal/validators:424:11)\n    at lookupAndConnect (node:net:1289:5)\n    at Socket.connect (node:net:1246:5)\n    at Connection.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\connection.js:43:17)\n    at Client._connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:112:11)\n    at Client.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:161:12)\n    at BoundPool.newClient (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:237:12)\n    at BoundPool.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:212:10)\n    at BoundPool.query (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:399:10)\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:33)"
+}
+{
+  "timestamp": "2024-11-01T05:12:19.681Z",
+  "level": "error",
+  "message": "Error getting all users: Port should be >= 0 and < 65536. Received type number (NaN). Port should be >= 0 and < 65536. Received type number (NaN).",
+  "code": "ERR_SOCKET_BAD_PORT",
+  "stack": "RangeError [ERR_SOCKET_BAD_PORT]: Port should be >= 0 and < 65536. Received type number (NaN).\n    at validatePort (node:internal/validators:424:11)\n    at lookupAndConnect (node:net:1289:5)\n    at Socket.connect (node:net:1246:5)\n    at Connection.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\connection.js:43:17)\n    at Client._connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:112:11)\n    at Client.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:161:12)\n    at BoundPool.newClient (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:237:12)\n    at BoundPool.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:212:10)\n    at BoundPool.query (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:399:10)\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:33)"
+}
+{
+  "timestamp": "2024-11-01T05:12:20.254Z",
+  "level": "error",
+  "message": "Error getting all users: Port should be >= 0 and < 65536. Received type number (NaN). Port should be >= 0 and < 65536. Received type number (NaN).",
+  "code": "ERR_SOCKET_BAD_PORT",
+  "stack": "RangeError [ERR_SOCKET_BAD_PORT]: Port should be >= 0 and < 65536. Received type number (NaN).\n    at validatePort (node:internal/validators:424:11)\n    at lookupAndConnect (node:net:1289:5)\n    at Socket.connect (node:net:1246:5)\n    at Connection.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\connection.js:43:17)\n    at Client._connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:112:11)\n    at Client.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:161:12)\n    at BoundPool.newClient (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:237:12)\n    at BoundPool.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:212:10)\n    at BoundPool.query (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:399:10)\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:33)"
+}
+{
+  "timestamp": "2024-11-01T05:12:20.468Z",
+  "level": "error",
+  "message": "Error getting all users: Port should be >= 0 and < 65536. Received type number (NaN). Port should be >= 0 and < 65536. Received type number (NaN).",
+  "code": "ERR_SOCKET_BAD_PORT",
+  "stack": "RangeError [ERR_SOCKET_BAD_PORT]: Port should be >= 0 and < 65536. Received type number (NaN).\n    at validatePort (node:internal/validators:424:11)\n    at lookupAndConnect (node:net:1289:5)\n    at Socket.connect (node:net:1246:5)\n    at Connection.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\connection.js:43:17)\n    at Client._connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:112:11)\n    at Client.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:161:12)\n    at BoundPool.newClient (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:237:12)\n    at BoundPool.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:212:10)\n    at BoundPool.query (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:399:10)\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:33)"
+}
+{
+  "timestamp": "2024-11-01T05:12:20.702Z",
+  "level": "error",
+  "message": "Error getting all users: Port should be >= 0 and < 65536. Received type number (NaN). Port should be >= 0 and < 65536. Received type number (NaN).",
+  "code": "ERR_SOCKET_BAD_PORT",
+  "stack": "RangeError [ERR_SOCKET_BAD_PORT]: Port should be >= 0 and < 65536. Received type number (NaN).\n    at validatePort (node:internal/validators:424:11)\n    at lookupAndConnect (node:net:1289:5)\n    at Socket.connect (node:net:1246:5)\n    at Connection.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\connection.js:43:17)\n    at Client._connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:112:11)\n    at Client.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:161:12)\n    at BoundPool.newClient (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:237:12)\n    at BoundPool.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:212:10)\n    at BoundPool.query (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:399:10)\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:33)"
+}
+{
+  "timestamp": "2024-11-01T05:12:21.024Z",
+  "level": "error",
+  "message": "Error getting all users: Port should be >= 0 and < 65536. Received type number (NaN). Port should be >= 0 and < 65536. Received type number (NaN).",
+  "code": "ERR_SOCKET_BAD_PORT",
+  "stack": "RangeError [ERR_SOCKET_BAD_PORT]: Port should be >= 0 and < 65536. Received type number (NaN).\n    at validatePort (node:internal/validators:424:11)\n    at lookupAndConnect (node:net:1289:5)\n    at Socket.connect (node:net:1246:5)\n    at Connection.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\connection.js:43:17)\n    at Client._connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:112:11)\n    at Client.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg\\lib\\client.js:161:12)\n    at BoundPool.newClient (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:237:12)\n    at BoundPool.connect (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:212:10)\n    at BoundPool.query (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:399:10)\n    at getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:33)"
+}
+{
+  "timestamp": "2024-11-01T05:18:44.043Z",
+  "level": "error",
+  "message": "Error getting all users: getaddrinfo ENOTFOUND \"localhost\"; getaddrinfo ENOTFOUND \"localhost\";",
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "\"localhost\";",
+  "stack": "Error: getaddrinfo ENOTFOUND \"localhost\";\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:22)"
+}
+{
+  "timestamp": "2024-11-01T05:19:06.574Z",
+  "level": "error",
+  "message": "Error getting user 1: getaddrinfo ENOTFOUND \"localhost\"; getaddrinfo ENOTFOUND \"localhost\";",
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "\"localhost\";",
+  "stack": "Error: getaddrinfo ENOTFOUND \"localhost\";\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getUserById (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:21:22)"
+}
+{
+  "timestamp": "2024-11-01T05:20:31.786Z",
+  "level": "error",
+  "message": "Error getting user 1: getaddrinfo ENOTFOUND \"localhost\"; getaddrinfo ENOTFOUND \"localhost\";",
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "\"localhost\";",
+  "stack": "Error: getaddrinfo ENOTFOUND \"localhost\";\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getUserById (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:21:22)"
+}
+{
+  "timestamp": "2024-11-01T05:20:39.420Z",
+  "level": "error",
+  "message": "Error getting all users: getaddrinfo ENOTFOUND \"localhost\"; getaddrinfo ENOTFOUND \"localhost\";",
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "\"localhost\";",
+  "stack": "Error: getaddrinfo ENOTFOUND \"localhost\";\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:22)"
+}
