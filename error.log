@@ -194,3 +194,20 @@
   "hostname": "\"localhost\";",
   "stack": "Error: getaddrinfo ENOTFOUND \"localhost\";\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:6:22)"
 }
+{
+  "timestamp": "2024-11-02T23:19:20.788Z",
+  "level": "error",
+  "message": "Error creating user: llave duplicada viola restricción de unicidad «users_email_key» llave duplicada viola restricción de unicidad «users_email_key»",
+  "length": 213,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23505",
+  "detail": "Ya existe la llave (email)=(user204@example.com).",
+  "schema": "public",
+  "table": "users",
+  "constraint": "users_email_key",
+  "file": "nbtinsert.c",
+  "line": "673",
+  "routine": "_bt_check_unique",
+  "stack": "error: llave duplicada viola restricción de unicidad «users_email_key»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:53:22)"
+}
