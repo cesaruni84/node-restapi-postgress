@@ -1,13 +1,18 @@
+import {
+  getAllUsers as getAllUsersModel,
+  getUserById as getUserByIdModel,
+} from "../models/user.model.js";
 import { pool } from "../config/db.js";
 import logger from "../utils/logger.js";
 
 export const getAllUsers = async (request, response) => {
   try {
-    const { rows } = await pool.query("SELECT * FROM users ORDER BY id ASC");
-    if (rows.length === 0) {
+    // const { rows } = await pool.query("SELECT * FROM users ORDER BY id ASC");
+    const users = await getAllUsersModel();
+    if (users.length === 0) {
       return response.status(204).json();
     }
-    response.status(200).json(rows);
+    response.status(200).json(users);
   } catch (error) {
     logger.error(`Error getting all users: ${error.message}`, error);
     return response.status(500).json({ message: "Error getting all users" });
@@ -18,15 +23,13 @@ export const getUserById = async (request, response) => {
   const { id } = request.params;
   // es más óptima en términos de legibilidad y mantenimiento del código.
   try {
-    const { rows } = await pool.query("SELECT * FROM users WHERE id = $1", [
-      id,
-    ]);
-    if (rows.length === 0) {
+    const user = await getUserByIdModel(id);
+    if (user.length === 0) {
       return response
         .status(404)
         .json({ message: "User " + id + " not found" });
     }
-    return response.json(rows);
+    return response.json(user);
   } catch (error) {
     logger.error(`Error getting user ${id}: ${error.message}`, error);
     return response.status(500).json({ message: "Error getting user " + id });
@@ -49,10 +52,10 @@ export const createUser = async (request, response) => {
 
   try {
     await client.query("BEGIN"); // Iniciamos una transacción
-    const { name, email } = request.body;
+    const { name, email, password, age, address, phone_number } = request.body;
     const { rows } = await pool.query(
-      "INSERT INTO users (name, email) VALUES ($1, $2) RETURNING *",
-      [name, email]
+      "INSERT INTO users (name, email, password, age, address, phone_number) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
+      [name, email, password, age, address, phone_number]
     );
     client.query("COMMIT"); // Confirmamos la transacción
     return response.status(201).json(rows);
