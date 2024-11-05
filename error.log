@@ -260,3 +260,127 @@
   "routine": "_bt_check_unique",
   "stack": "error: llave duplicada viola restricción de unicidad «users_email_key»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:56:22)"
 }
+{
+  "timestamp": "2024-11-05T05:09:57.315Z",
+  "level": "error",
+  "message": "Error getting all users  error de sintaxis en o cerca de «ASCe» error de sintaxis en o cerca de «ASCe»",
+  "length": 103,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "42601",
+  "position": "33",
+  "file": "scan.l",
+  "line": "1245",
+  "routine": "scanner_yyerror",
+  "stack": "error: error de sintaxis en o cerca de «ASCe»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:4:20)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:14:19)"
+}
+{
+  "timestamp": "2024-11-05T05:10:08.174Z",
+  "level": "error",
+  "message": "Error getting all users  error de sintaxis en o cerca de «ASCe» error de sintaxis en o cerca de «ASCe»",
+  "length": 103,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "42601",
+  "position": "33",
+  "file": "scan.l",
+  "line": "1245",
+  "routine": "scanner_yyerror",
+  "stack": "error: error de sintaxis en o cerca de «ASCe»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:4:20)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:14:19)"
+}
+{
+  "timestamp": "2024-11-05T05:17:00.127Z",
+  "level": "error",
+  "message": "error de sintaxis en o cerca de «ASCe» error de sintaxis en o cerca de «ASCe»",
+  "length": 103,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "42601",
+  "position": "33",
+  "file": "scan.l",
+  "line": "1245",
+  "routine": "scanner_yyerror",
+  "stack": "error: error de sintaxis en o cerca de «ASCe»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:4:20)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:14:19)"
+}
+{
+  "timestamp": "2024-11-05T05:41:03.867Z",
+  "level": "error",
+  "message": "error de sintaxis en o cerca de «ASCe» error de sintaxis en o cerca de «ASCe»",
+  "length": 103,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "42601",
+  "position": "33",
+  "file": "scan.l",
+  "line": "1245",
+  "routine": "scanner_yyerror",
+  "stack": "error: error de sintaxis en o cerca de «ASCe»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:4:20)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:14:19)"
+}
+{
+  "timestamp": "2024-11-05T05:46:37.733Z",
+  "level": "error",
+  "message": "error de sintaxis en o cerca de «ASCe» error de sintaxis en o cerca de «ASCe»",
+  "length": 103,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "42601",
+  "position": "33",
+  "file": "scan.l",
+  "line": "1245",
+  "routine": "scanner_yyerror",
+  "stack": "error: error de sintaxis en o cerca de «ASCe»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:4:20)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:14:19)"
+}
+{
+  "timestamp": "2024-11-05T05:47:05.995Z",
+  "level": "error",
+  "message": "no se pudo determinar el tipo del parámetro $1 no se pudo determinar el tipo del parámetro $1",
+  "length": 126,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "42P18",
+  "file": "postgres.c",
+  "line": "741",
+  "routine": "pg_analyze_and_rewrite_varparams",
+  "stack": "error: no se pudo determinar el tipo del parámetro $1\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getUserById (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:9:20)\n    at async getUserById (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:30:18)"
+}
+{
+  "timestamp": "2024-11-05T05:51:10.438Z",
+  "level": "error",
+  "message": "llave duplicada viola restricción de unicidad «users_email_key» llave duplicada viola restricción de unicidad «users_email_key»",
+  "length": 215,
+  "name": "error",
+  "severity": "ERROR",
+  "code": "23505",
+  "detail": "Ya existe la llave (email)=(john.doe2@example.com).",
+  "schema": "public",
+  "table": "users",
+  "constraint": "users_email_key",
+  "file": "nbtinsert.c",
+  "line": "673",
+  "routine": "_bt_check_unique",
+  "stack": "error: llave duplicada viola restricción de unicidad «users_email_key»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:19:20)\n    at async createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:76:18)"
+}
+{
+  "timestamp": "2024-11-05T06:34:24.635Z",
+  "level": "error",
+  "message": "Cannot access 'email' before initialization Cannot access 'email' before initialization",
+  "stack": "ReferenceError: Cannot access 'email' before initialization\n    at createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:74:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-05T06:35:13.705Z",
+  "level": "error",
+  "message": "Cannot access 'email' before initialization Cannot access 'email' before initialization",
+  "stack": "ReferenceError: Cannot access 'email' before initialization\n    at createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:74:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-05T06:36:30.678Z",
+  "level": "error",
+  "message": "Cannot access 'email' before initialization Cannot access 'email' before initialization",
+  "stack": "ReferenceError: Cannot access 'email' before initialization\n    at createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:74:49)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-05T06:36:54.697Z",
+  "level": "error",
+  "message": "Cannot access 'email' before initialization Cannot access 'email' before initialization",
+  "stack": "ReferenceError: Cannot access 'email' before initialization\n    at createUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:79:47)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}

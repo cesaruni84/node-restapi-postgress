@@ -1,6 +1,6 @@
 import { createLogger, format, transports } from 'winston';
 
-const logger = createLogger({
+export const logger = createLogger({
     level: 'debug', // Cambia el nivel a 'debug' para registrar todos los niveles
     format: format.combine(
       format.timestamp(),
@@ -32,4 +32,4 @@ const logger = createLogger({
 //   ],
 // });
 
-export default logger;
+// export default logger;

@@ -5,6 +5,7 @@ import {
   createUser,
   updateUser,
   deleteUser,
+  getUserByEmail
 } from "../controllers/user.controllers.js";
 import {
   userBodyValidationSchema,
@@ -20,6 +21,7 @@ const router = Router();
 
 // Definimos las rutas para users
 router.get("/users", getAllUsers);
+router.get("/users/search", getUserByEmail);
 router.get("/users/:id", idParamValidationSchema, validateRequest, getUserById);
 router.post("/users", userBodyValidationSchema, validateRequest, createUser);
 router.put("/users/:id",idParamValidationSchema, userBodyValidationSchema, validateRequest, updateUser);

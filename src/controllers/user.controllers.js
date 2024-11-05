@@ -1,21 +1,26 @@
 import {
   getAllUsers as getAllUsersModel,
   getUserById as getUserByIdModel,
+  getUserByEmail as getUserByEmailModel,
+  createUser as createUserModel,
 } from "../models/user.model.js";
 import { pool } from "../config/db.js";
-import logger from "../utils/logger.js";
+import { logger } from "../utils/logger.js";
+import { handleError } from "../utils/error.utils.js";
+import { HttpCodes } from "../utils/httpCodes.js";
 
 export const getAllUsers = async (request, response) => {
   try {
     // const { rows } = await pool.query("SELECT * FROM users ORDER BY id ASC");
     const users = await getAllUsersModel();
     if (users.length === 0) {
-      return response.status(204).json();
+      return response.status(HttpCodes.NO_CONTENT).json();
     }
-    response.status(200).json(users);
+    response.status(HttpCodes.OK).json(users);
   } catch (error) {
-    logger.error(`Error getting all users: ${error.message}`, error);
-    return response.status(500).json({ message: "Error getting all users" });
+    // logger.error(`Error getting all users: ${error.message}`, error);
+    // return response.status(500).json({ message: "Error getting all users" });
+    handleError("Error getting all users ", error, response);
   }
 };
 
@@ -26,13 +31,12 @@ export const getUserById = async (request, response) => {
     const user = await getUserByIdModel(id);
     if (user.length === 0) {
       return response
-        .status(404)
+        .status(HttpCodes.NO_CONTENT)
         .json({ message: "User " + id + " not found" });
     }
     return response.json(user);
   } catch (error) {
-    logger.error(`Error getting user ${id}: ${error.message}`, error);
-    return response.status(500).json({ message: "Error getting user " + id });
+    handleError("Error getting user ", error, response);
   }
   // await pool.query('SELECT * FROM users WHERE id = $1', [id])
   // .then(result => {
@@ -47,22 +51,50 @@ export const getUserById = async (request, response) => {
   // });
 };
 
-export const createUser = async (request, response) => {
-  const client = await pool.connect(); // Conectamos a la base de datos
 
+export const getUserByEmail = async (request, response) => {
+  const email = request.query.email;
   try {
+    const user = await getUserByEmailModel(email);
+    if (user.length === 0) {
+      return response
+        .status(HttpCodes.NO_CONTENT)
+        .json({ message: "User with email: " + email + " not found" });
+    }
+    return response.status(HttpCodes.OK).json(user);
+  } catch (error) {
+    handleError("Error getting user with email " + email, error, response);
+  }
+};
+
+export const createUser = async (request, response) => {
+  const emailCreateUser = request.body.email;
+  const client = await pool.connect();
+  try {
+    const userExist = await getUserByEmailModel(emailCreateUser);
+    console.log(userExist.length);
+    if (userExist.length > 0) {
+      return response
+        .status(HttpCodes.CONFLICT)
+        .json({
+          message: "User with email " + emailCreateUser + " already exists",
+        });
+    }
     await client.query("BEGIN"); // Iniciamos una transacción
     const { name, email, password, age, address, phone_number } = request.body;
-    const { rows } = await pool.query(
-      "INSERT INTO users (name, email, password, age, address, phone_number) VALUES ($1, $2, $3, $4, $5, $6) RETURNING *",
-      [name, email, password, age, address, phone_number]
+    const user = await createUserModel(
+      name,
+      email,
+      password,
+      age,
+      address,
+      phone_number
     );
     client.query("COMMIT"); // Confirmamos la transacción
-    return response.status(201).json(rows);
+    return response.status(HttpCodes.CREATED).json(user);
   } catch (error) {
     await client.query("ROLLBACK"); // Cancelamos la transacción
-    logger.error(`Error creating user: ${error.message}`, error);
-    return response.status(500).json({ message: "Error creating user" });
+    handleError("Error creating user ", error, response);
   } finally {
     client.release(); // Liberamos la conexion del cliente hacia la base de datos
   }
@@ -78,13 +110,12 @@ export const updateUser = async (request, response) => {
     );
     if (rows.length === 0) {
       return response
-        .status(404)
+        .status(HttpCodes.NOT_FOUND)
         .json({ message: "User " + id + " not found" });
     }
     return response.json(rows);
   } catch (error) {
-    logger.error(`Error updating user ${id}: ${error.message}`, error);
-    return response.status(500).json({ message: "Error updating user " + id });
+    handleError("Error updating user ", error, response);
   }
 };
 
@@ -97,15 +128,14 @@ export const deleteUser = async (request, response) => {
     );
     if (rowCount === 0) {
       return response
-        .status(404)
+        .status(HttpCodes.NOT_FOUND)
         .json({ message: "User " + id + " not found" });
     }
     return response
-      .status(200)
+      .status(HttpCodes.OK)
       .json({ message: "User " + id + " deleted successfully" });
     //response.sendStatus(200);
   } catch (error) {
-    logger.error(`Error deleting user ${id}: ${error.message}`, error);
-    return response.status(500).json({ message: "Error deleting user " + id });
+    handleError("Error deleting user ", error, response);
   }
 };
