@@ -5,7 +5,6 @@ import {
   createUser as createUserModel,
 } from "../models/user.model.js";
 import { pool } from "../config/db.js";
-import { logger } from "../utils/logger.js";
 import { handleError } from "../utils/error.utils.js";
 import { HttpCodes } from "../utils/httpCodes.js";
 
@@ -32,7 +31,7 @@ export const getUserById = async (request, response) => {
     if (user.length === 0) {
       return response
         .status(HttpCodes.NO_CONTENT)
-        .json({ message: "User " + id + " not found" });
+        .json({ message: "User not found" });
     }
     return response.json(user);
   } catch (error) {
@@ -72,7 +71,6 @@ export const createUser = async (request, response) => {
   const client = await pool.connect();
   try {
     const userExist = await getUserByEmailModel(emailCreateUser);
-    console.log(userExist.length);
     if (userExist.length > 0) {
       return response
         .status(HttpCodes.CONFLICT)
@@ -102,20 +100,35 @@ export const createUser = async (request, response) => {
 
 export const updateUser = async (request, response) => {
   const { id } = request.params;
+  const client = await pool.connect();
   try {
-    const { name, email } = request.body;
+    const { name, email, password, age, address, phone_number } = request.body;
+    const userExist = await getUserByEmailModel(email);
+    if (userExist.length > 0 && userExist[0].id !== id) {
+      return response
+      .status(HttpCodes.CONFLICT)
+      .json({
+        message: "User with email " + email + " already exists",
+      });
+    }
+    await client.query("BEGIN");
     const { rows } = await pool.query(
-      "UPDATE users SET name = $1, email = $2 WHERE id=$3 RETURNING *",
-      [name, email, id]
+      "UPDATE users SET name = $1, email = $2, password = $3, " +
+        "age = $4, address = $5, phone_number = $6 WHERE id=$7 RETURNING *",
+      [name, email, password, age, address, phone_number, id]
     );
     if (rows.length === 0) {
       return response
         .status(HttpCodes.NOT_FOUND)
-        .json({ message: "User " + id + " not found" });
+        .json({ message: "User not found" });
     }
+    await client.query("COMMIT");
     return response.json(rows);
   } catch (error) {
+    await client.query("ROLLBACK");
     handleError("Error updating user ", error, response);
+  } finally {
+    client.release(); // Libera conexion
   }
 };
 

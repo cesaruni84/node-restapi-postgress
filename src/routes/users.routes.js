@@ -5,12 +5,13 @@ import {
   createUser,
   updateUser,
   deleteUser,
-  getUserByEmail
+  getUserByEmail,
 } from "../controllers/user.controllers.js";
 import {
   userBodyValidationSchema,
   idParamValidationSchema,
   validateRequest,
+  validateUserEmail,
 } from "../middlewares/user.validate.js";
 
 // Inicializamos el router de express
@@ -23,8 +24,20 @@ const router = Router();
 router.get("/users", getAllUsers);
 router.get("/users/search", getUserByEmail);
 router.get("/users/:id", idParamValidationSchema, validateRequest, getUserById);
-router.post("/users", userBodyValidationSchema, validateRequest, createUser);
-router.put("/users/:id",idParamValidationSchema, userBodyValidationSchema, validateRequest, updateUser);
+router.post(
+  "/users",
+  userBodyValidationSchema,
+  validateRequest,
+  validateUserEmail,
+  createUser
+);
+router.put(
+  "/users/:id",
+  idParamValidationSchema,
+  userBodyValidationSchema,
+  validateRequest,
+  updateUser
+);
 router.delete("/users/:id", deleteUser);
 
 // Exportamos el router de users para usarlo en la aplicación

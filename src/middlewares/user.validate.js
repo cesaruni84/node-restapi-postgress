@@ -1,4 +1,6 @@
 import { validationResult, checkSchema } from "express-validator";
+import { getUserByEmail } from "../models/user.model.js";
+import { HttpCodes } from "../utils/httpCodes.js";
 
 export const userBodyValidationSchema = checkSchema({
   name: {
@@ -53,7 +55,21 @@ export const validateRequest = (request, response, next) => {
       location: error.location
     }
   ));
-    return response.status(400).json({ errors: formattedErrors });
+    return response.status(HttpCodes.NOT_FOUND).json({ errors: formattedErrors });
   }
   next(); // Si no hay errores, continuamos con el siguiente middleware
 };
+
+
+export const validateUserEmail = async (request, response, next) => {
+  const userExist = await getUserByEmail(request.body.email);
+  if (userExist.length > 0) {
+    return response
+      .status(HttpCodes.CONFLICT)
+      .json({
+        message: "User with email " + request.body.email + " already exists",
+      });
+  }
+  next(); // Si no hay errores, continuamos con el siguiente middleware
+};
+
