@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  db-postgres:
+    image: postgres:15
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_DATABASE}
+    volumes:
+      - db_data:/var/lib/postgresql/data
+      - ./database/db.sql:/docker-entrypoint-initdb.d/db.sql
+    ports:
+      - "5433:5432"   # Change the port default 5432 to 5433 for avoid conflicts
+
+  api-node-rest:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node-apirest-app
+    environment:
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
+      DB_HOST: db-postgres
+      DB_PORT: ${DB_PORT}
+      DB_DATABASE: ${DB_DATABASE}
+      PORT: ${PORT}
+    ports:
+      - "${HOST_PORT}:${CONTAINER_PORT}" # HOST_PORT: 3000, CONTAINER_PORT: 3000 (APP)
+    depends_on:
+      - db-postgres
+
+volumes:
+  db_data:
