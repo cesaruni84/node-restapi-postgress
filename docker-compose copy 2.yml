@@ -5,9 +5,9 @@ services:
     image: postgres:15
     container_name: postgres-db
     environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: 123456
-      POSTGRES_DB: nodepg
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: ${DB_DATABASE}
     volumes:
       - db_data:/var/lib/postgresql/data
     ports:
@@ -17,14 +17,14 @@ services:
     image: cesaruni.azurecr.io/node-apirest:v1
     container_name: node-apirest-app
     environment:
-      DB_USER: postgres
-      DB_PASSWORD: 123456
+      DB_USER: ${DB_USER}
+      DB_PASSWORD: ${DB_PASSWORD}
       DB_HOST: db-postgres
-      DB_PORT: 5432
-      DB_DATABASE: nodepg
+      DB_PORT: ${DB_PORT}
+      DB_DATABASE: ${DB_DATABASE}
       PORT: ${PORT}
     ports:
-      - "4000:4000"
+      - "${HOST_PORT}:${CONTAINER_PORT}"
     depends_on:
       - db-postgres
 

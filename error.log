@@ -639,3 +639,33 @@
   "routine": "_bt_check_unique",
   "stack": "error: llave duplicada viola restricción de unicidad «users_email_key»\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async updateUser (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:116:22)"
 }
+{
+  "timestamp": "2024-11-23T18:49:29.703Z",
+  "level": "error",
+  "message": "",
+  "code": "ECONNREFUSED",
+  "stack": "AggregateError\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:4:20)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:14:19)"
+}
+{
+  "timestamp": "2024-11-23T18:49:31.043Z",
+  "level": "error",
+  "message": "",
+  "code": "ECONNREFUSED",
+  "stack": "AggregateError\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:4:20)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:14:19)"
+}
+{
+  "timestamp": "2024-11-23T18:58:32.727Z",
+  "level": "error",
+  "message": "getaddrinfo ENOTFOUND localhost2 getaddrinfo ENOTFOUND localhost2",
+  "errno": -3008,
+  "code": "ENOTFOUND",
+  "syscall": "getaddrinfo",
+  "hostname": "localhost2",
+  "stack": "Error: getaddrinfo ENOTFOUND localhost2\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:4:20)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:14:19)"
+}
+{
+  "timestamp": "2024-11-23T18:59:30.185Z",
+  "level": "error",
+  "message": "Connection terminated due to connection timeout Connection terminated due to connection timeout",
+  "stack": "Error: Connection terminated due to connection timeout\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:4:20)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:14:19)"
+}

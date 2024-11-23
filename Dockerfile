@@ -9,6 +9,7 @@ WORKDIR /app
 
 # Copy package.json and package-lock.json to the working directory
 COPY package.json package-lock.json /app/
+COPY .env ./
 
 # Install any needed packages specified in package.json
 RUN npm install
@@ -21,12 +22,12 @@ EXPOSE 4000 5000 6000
 
 # Define environment variables
 # Modificar archivo : pg_hba.conf en la carpeta /var/lib/postgresql/data/pg_hba.conf
-ENV DB_USER=postgres
-ENV DB_PASSWORD=123456
-ENV DB_HOST=192.168.1.22
-ENV DB_PORT=5432
-ENV DB_DATABASE=nodepg
-ENV PORT=4000
+# ENV DB_USER=${DB_USER}
+# ENV DB_PASSWORD=${DB_PASSWORD}
+# ENV DB_HOST=${DB_HOST}
+# ENV DB_PORT=${DB_PORT}
+# ENV DB_DATABASE=${DB_DATABASE}
+# ENV PORT=${DB_PORT}
 
 # Run the application
 #CMD ["node", "src/index.js"]

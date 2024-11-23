@@ -19,7 +19,11 @@ export const getAllUsers = async (request, response) => {
   } catch (error) {
     // logger.error(`Error getting all users: ${error.message}`, error);
     // return response.status(500).json({ message: "Error getting all users" });
-    handleError("Error getting all users ", error, response);
+    if (error.code === 'ETIMEDOUT') {
+      handleError("Tiempo de conexión a la base de datos agotado", error, response);
+    } else {
+      handleError("Error getting all users ", error, response);
+    }
   }
 };
 
