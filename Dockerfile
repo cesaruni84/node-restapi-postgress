@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Copy package.json and package-lock.json to the working directory
 COPY package.json package-lock.json /app/
-COPY .env ./
+#COPY .env ./
 
 # Install any needed packages specified in package.json
 RUN npm install
