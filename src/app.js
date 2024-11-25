@@ -1,6 +1,8 @@
 import express from 'express'; // IMPORTANTE: No olvides instalar express con npm i express
 import userRoutes from './routes/users.routes.js';
+import authRoutes from './routes/auth.routes.js';
 import morgan from 'morgan';
+import { authenticateJWT } from './middlewares/auth.validate.js';
 
 //Configura la instancia de Express con middlewares, rutas y otros ajustes
  // Inicializamos express
@@ -12,6 +14,7 @@ app.use(express.json()); // Procesa cuerpos en JSON
 app.use(express.urlencoded({ extended: true })); // Procesa datos de formularios
 
 // Rutas de la aplicación: users
-app.use(userRoutes); 
+app.use(authRoutes);
+app.use(authenticateJWT, userRoutes); 
 
 export default app;

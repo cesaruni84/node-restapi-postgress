@@ -56,7 +56,7 @@ export const getUserById = async (request, response) => {
 
 
 export const getUserByEmail = async (request, response) => {
-  const email = request.query.email;
+  const email = request.query.email || request.body.email;;
   try {
     const user = await getUserByEmailModel(email);
     if (user.length === 0) {

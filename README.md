@@ -149,3 +149,10 @@ az container create --resource-group myResourceGroup --name mycontainer03 --file
 
 
 ```
+
+### Validacion con JWT
+Instalar las siguientes dependencias:
+
+```bash 
+npm install jsonwebtoken bcryptjs
+```

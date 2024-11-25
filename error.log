@@ -669,3 +669,243 @@
   "message": "Connection terminated due to connection timeout Connection terminated due to connection timeout",
   "stack": "Error: Connection terminated due to connection timeout\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\pg-pool\\index.js:45:11\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/models/user.model.js:4:20)\n    at async getAllUsers (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:14:19)"
 }
+{
+  "timestamp": "2024-11-24T06:10:20.635Z",
+  "level": "error",
+  "message": "Cannot read properties of undefined (reading 'email') Cannot read properties of undefined (reading 'email')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'email')\n    at getUserByEmail (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:59:31)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:10:24)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:175:3)"
+}
+{
+  "timestamp": "2024-11-24T06:11:52.000Z",
+  "level": "error",
+  "message": "Cannot read properties of undefined (reading 'email') Cannot read properties of undefined (reading 'email')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'email')\n    at getUserByEmail (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:59:31)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:12:24)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:175:3)"
+}
+{
+  "timestamp": "2024-11-24T06:12:52.083Z",
+  "level": "error",
+  "message": "Cannot read properties of undefined (reading 'email') Cannot read properties of undefined (reading 'email')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'email')\n    at getUserByEmail (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:59:31)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:12:24)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:175:3)"
+}
+{
+  "timestamp": "2024-11-24T06:21:54.705Z",
+  "level": "error",
+  "message": "Cannot read properties of undefined (reading 'email') Cannot read properties of undefined (reading 'email')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'email')\n    at getUserByEmail (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:59:31)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:12:24)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:175:3)"
+}
+{
+  "timestamp": "2024-11-24T06:22:12.033Z",
+  "level": "error",
+  "message": "Cannot read properties of undefined (reading 'email') Cannot read properties of undefined (reading 'email')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'email')\n    at getUserByEmail (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:59:31)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:12:24)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:175:3)"
+}
+{
+  "timestamp": "2024-11-24T06:24:28.003Z",
+  "level": "error",
+  "message": "Cannot read properties of undefined (reading 'email') Cannot read properties of undefined (reading 'email')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'email')\n    at getUserByEmail (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:74:30)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:12:24)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:175:3)"
+}
+{
+  "timestamp": "2024-11-24T06:27:23.497Z",
+  "level": "error",
+  "message": "Cannot read properties of undefined (reading 'email') Cannot read properties of undefined (reading 'email')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'email')\n    at getUserByEmail (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:74:30)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:12:24)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:175:3)"
+}
+{
+  "timestamp": "2024-11-24T07:08:22.582Z",
+  "level": "error",
+  "message": "Cannot read properties of undefined (reading 'email') Cannot read properties of undefined (reading 'email')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'email')\n    at getUserByEmail (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:75:30)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:12:24)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:175:3)"
+}
+{
+  "timestamp": "2024-11-24T07:08:54.936Z",
+  "level": "error",
+  "message": "Cannot read properties of undefined (reading 'email') Cannot read properties of undefined (reading 'email')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'email')\n    at getUserByEmail (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:75:30)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:12:24)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:175:3)"
+}
+{
+  "timestamp": "2024-11-24T07:11:03.838Z",
+  "level": "error",
+  "message": "Cannot read properties of undefined (reading 'email') Cannot read properties of undefined (reading 'email')",
+  "stack": "TypeError: Cannot read properties of undefined (reading 'email')\n    at getUserByEmail (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/user.controllers.js:59:31)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:12:24)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:149:13)\n    at Route.dispatch (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\route.js:119:3)\n    at Layer.handle [as handle_request] (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\router\\index.js:175:3)"
+}
+{
+  "timestamp": "2024-11-24T07:11:25.127Z",
+  "level": "error",
+  "message": "res is not defined res is not defined",
+  "stack": "ReferenceError: res is not defined\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:14:7)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-24T07:12:32.993Z",
+  "level": "error",
+  "message": "Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client",
+  "code": "ERR_HTTP_HEADERS_SENT",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:278:15)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:16:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-24T07:13:10.980Z",
+  "level": "error",
+  "message": "Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client",
+  "code": "ERR_HTTP_HEADERS_SENT",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:278:15)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:16:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-24T07:13:55.223Z",
+  "level": "error",
+  "message": "Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client",
+  "code": "ERR_HTTP_HEADERS_SENT",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:278:15)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:16:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-24T22:26:07.692Z",
+  "level": "error",
+  "message": "Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client",
+  "code": "ERR_HTTP_HEADERS_SENT",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:278:15)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:14:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-24T22:26:20.573Z",
+  "level": "error",
+  "message": "Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client",
+  "code": "ERR_HTTP_HEADERS_SENT",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:278:15)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:14:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-24T22:28:30.988Z",
+  "level": "error",
+  "message": "Cannot set headers after they are sent to the client Cannot set headers after they are sent to the client",
+  "code": "ERR_HTTP_HEADERS_SENT",
+  "stack": "Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client\n    at ServerResponse.setHeader (node:_http_outgoing:652:11)\n    at ServerResponse.header (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\express\\lib\\response.js:278:15)\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:14:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-24T22:35:54.095Z",
+  "level": "error",
+  "message": "jwt is not defined jwt is not defined",
+  "stack": "ReferenceError: jwt is not defined\n    at loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:16:22)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+}
+{
+  "timestamp": "2024-11-25T04:06:50.317Z",
+  "level": "error",
+  "message": "Secrets Manager can't find the specified secret. Secrets Manager can't find the specified secret.",
+  "name": "ResourceNotFoundException",
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 400,
+    "requestId": "e6f4c7bc-088c-44ce-a3c3-f23553be5053",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "__type": "ResourceNotFoundException",
+  "stack": "ResourceNotFoundException: Secrets Manager can't find the specified secret.\n    at de_ResourceNotFoundExceptionRes (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:1101:21)\n    at de_CommandError (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:971:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-serde\\dist-cjs\\index.js:35:20\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\core\\dist-cjs\\index.js:168:18\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-retry\\dist-cjs\\index.js:320:38\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\middleware-logger\\dist-cjs\\index.js:34:22\n    at async getSecretKeyPlain (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/utils/awsSecrets.js:19:22)\n    at async loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:10:26)"
+}
+{
+  "timestamp": "2024-11-25T04:07:32.517Z",
+  "level": "error",
+  "message": "Secrets Manager can't find the specified secret. Secrets Manager can't find the specified secret.",
+  "name": "ResourceNotFoundException",
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 400,
+    "requestId": "42be22bd-9774-4e29-9743-84b0385f9a67",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "__type": "ResourceNotFoundException",
+  "stack": "ResourceNotFoundException: Secrets Manager can't find the specified secret.\n    at de_ResourceNotFoundExceptionRes (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:1101:21)\n    at de_CommandError (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:971:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-serde\\dist-cjs\\index.js:35:20\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\core\\dist-cjs\\index.js:168:18\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-retry\\dist-cjs\\index.js:320:38\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\middleware-logger\\dist-cjs\\index.js:34:22\n    at async getSecretKeyPlain (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/utils/awsSecrets.js:19:22)\n    at async loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:10:26)"
+}
+{
+  "timestamp": "2024-11-25T04:08:08.898Z",
+  "level": "error",
+  "message": "Secrets Manager can't find the specified secret. Secrets Manager can't find the specified secret.",
+  "name": "ResourceNotFoundException",
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 400,
+    "requestId": "fdf0c221-fed1-4c21-b59a-879ee052fc39",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "__type": "ResourceNotFoundException",
+  "stack": "ResourceNotFoundException: Secrets Manager can't find the specified secret.\n    at de_ResourceNotFoundExceptionRes (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:1101:21)\n    at de_CommandError (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:971:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-serde\\dist-cjs\\index.js:35:20\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\core\\dist-cjs\\index.js:168:18\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-retry\\dist-cjs\\index.js:320:38\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\middleware-logger\\dist-cjs\\index.js:34:22\n    at async getSecretKeyPlain (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/utils/awsSecrets.js:19:22)\n    at async loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:10:26)"
+}
+{
+  "timestamp": "2024-11-25T04:09:00.881Z",
+  "level": "error",
+  "message": "Secrets Manager can't find the specified secret. Secrets Manager can't find the specified secret.",
+  "name": "ResourceNotFoundException",
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 400,
+    "requestId": "70708ec4-025b-4322-b9e7-d6a4a93ad7c2",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "__type": "ResourceNotFoundException",
+  "stack": "ResourceNotFoundException: Secrets Manager can't find the specified secret.\n    at de_ResourceNotFoundExceptionRes (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:1101:21)\n    at de_CommandError (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:971:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-serde\\dist-cjs\\index.js:35:20\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\core\\dist-cjs\\index.js:168:18\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-retry\\dist-cjs\\index.js:320:38\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\middleware-logger\\dist-cjs\\index.js:34:22\n    at async getSecretKeyPlain (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/utils/awsSecrets.js:19:22)\n    at async loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:10:26)"
+}
+{
+  "timestamp": "2024-11-25T04:14:56.947Z",
+  "level": "error",
+  "message": "Secrets Manager can't find the specified secret. Secrets Manager can't find the specified secret.",
+  "name": "ResourceNotFoundException",
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 400,
+    "requestId": "b392bc61-cf4c-47d0-a342-ec6169df8fc4",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "__type": "ResourceNotFoundException",
+  "stack": "ResourceNotFoundException: Secrets Manager can't find the specified secret.\n    at de_ResourceNotFoundExceptionRes (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:1101:21)\n    at de_CommandError (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:971:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-serde\\dist-cjs\\index.js:35:20\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\core\\dist-cjs\\index.js:168:18\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-retry\\dist-cjs\\index.js:320:38\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\middleware-logger\\dist-cjs\\index.js:34:22\n    at async getSecretKeyPlain (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/utils/awsSecrets.js:19:22)\n    at async loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:10:26)"
+}
+{
+  "timestamp": "2024-11-25T04:19:10.432Z",
+  "level": "error",
+  "message": "Unexpected non-whitespace character after JSON at position 1 Unexpected non-whitespace character after JSON at position 1",
+  "stack": "SyntaxError: Unexpected non-whitespace character after JSON at position 1\n    at JSON.parse (<anonymous>)\n    at getSecretKeyPlain (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/utils/awsSecrets.js:18:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/utils/awsSecrets.js:35:20"
+}
+{
+  "timestamp": "2024-11-25T04:21:47.152Z",
+  "level": "error",
+  "message": "Secrets Manager can't find the specified secret. Secrets Manager can't find the specified secret.",
+  "name": "ResourceNotFoundException",
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 400,
+    "requestId": "528ad4da-6094-4758-9e12-f5d0ff699358",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "__type": "ResourceNotFoundException",
+  "stack": "ResourceNotFoundException: Secrets Manager can't find the specified secret.\n    at de_ResourceNotFoundExceptionRes (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:1101:21)\n    at de_CommandError (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:971:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-serde\\dist-cjs\\index.js:35:20\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\core\\dist-cjs\\index.js:168:18\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-retry\\dist-cjs\\index.js:320:38\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\middleware-logger\\dist-cjs\\index.js:34:22\n    at async getSecretKeyPlain (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/utils/awsSecrets.js:13:22)\n    at async loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:10:26)"
+}
+{
+  "timestamp": "2024-11-25T04:22:04.460Z",
+  "level": "error",
+  "message": "Secrets Manager can't find the specified secret. Secrets Manager can't find the specified secret.",
+  "name": "ResourceNotFoundException",
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 400,
+    "requestId": "b7fa43dc-689f-43ce-8797-c25fc651ad76",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "__type": "ResourceNotFoundException",
+  "stack": "ResourceNotFoundException: Secrets Manager can't find the specified secret.\n    at de_ResourceNotFoundExceptionRes (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:1101:21)\n    at de_CommandError (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:971:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-serde\\dist-cjs\\index.js:35:20\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\core\\dist-cjs\\index.js:168:18\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-retry\\dist-cjs\\index.js:320:38\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\middleware-logger\\dist-cjs\\index.js:34:22\n    at async getSecretKeyPlain (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/utils/awsSecrets.js:13:22)\n    at async loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:10:26)"
+}
+{
+  "timestamp": "2024-11-25T04:22:22.913Z",
+  "level": "error",
+  "message": "Secrets Manager can't find the specified secret. Secrets Manager can't find the specified secret.",
+  "name": "ResourceNotFoundException",
+  "$fault": "client",
+  "$metadata": {
+    "httpStatusCode": 400,
+    "requestId": "f94c046e-b51a-4df2-9ec8-69f9b07f9aab",
+    "attempts": 1,
+    "totalRetryDelay": 0
+  },
+  "__type": "ResourceNotFoundException",
+  "stack": "ResourceNotFoundException: Secrets Manager can't find the specified secret.\n    at de_ResourceNotFoundExceptionRes (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:1101:21)\n    at de_CommandError (D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\client-secrets-manager\\dist-cjs\\index.js:971:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-serde\\dist-cjs\\index.js:35:20\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\core\\dist-cjs\\index.js:168:18\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@smithy\\middleware-retry\\dist-cjs\\index.js:320:38\n    at async D:\\Personal\\Tecnologias\\Node\\postgres-node-apirest\\node_modules\\@aws-sdk\\middleware-logger\\dist-cjs\\index.js:34:22\n    at async getSecretKeyPlain (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/utils/awsSecrets.js:13:22)\n    at async loginValidate (file:///D:/Personal/Tecnologias/Node/postgres-node-apirest/src/controllers/auth.controller.js:10:26)"
+}
